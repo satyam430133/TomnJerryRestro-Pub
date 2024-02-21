@@ -1,0 +1,147 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212529;
+    color: white;
+}
+#navbarlogo{
+    height: 90px;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+}
+.navbar{
+    height: 80px;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+.nav-item{
+    margin: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: rgb(241, 61, 61);
+    font-weight: 400;
+    font-size: large;
+}
+.card-title{
+    color: white;
+}
+.d-flex,.btn{
+    color: rgb(241, 61, 61);
+    border: rgb(241, 61, 61);
+}
+.carousel-caption{
+    color: white;
+}
+.carousel-item{
+    height: 600px;
+}
+.card{
+    background-color: black;
+    overflow: hidden;
+}
+footer{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.footsocialmedia li{
+    display: inline;
+    padding: 10px;
+}
+footer ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+#carausalimg{
+    filter: blur(2px);
+}
+.navbar-toggler{
+    color: white;
+}
+.col:hover img{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+.imgbody{
+    overflow: hidden;
+}
+.mt-5{
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    color: white;
+    background-color: rgb(225, 73, 73);
+}
+
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .container-fluid{
+        background-color: black;
+    }
+    .nav-item{
+        margin-top: -30px;
+    }
+    .form-control{
+        margin-top: -10px;
+    }
+    #navbarlogo{
+        height: 60px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    footer{
+        display: grid;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+        height: auto;
+    }
+    footer div{
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+  }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 481px){
+    .container-fluid{
+        background-color: black;
+    }
+    .nav-item{
+        margin-top: -30px;
+    }
+    .form-control{
+        margin-top: -10px;
+    }
+    #navbarlogo{
+        height: 40px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    footer{
+        display: grid;
+        align-items: start;
+        justify-content: start;
+        width: 100%;
+        height: auto;
+    }
+    footer div{
+        margin-left: 5%;
+        width: 90%;
+    }    
+
+}
